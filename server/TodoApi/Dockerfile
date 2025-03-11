@@ -7,7 +7,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:8.0-windowsservercore-ltsc2022 AS build
 WORKDIR /src
 COPY ["TodoApi/TodoApi.csproj", "TodoApi/"]
-RUN dotnet restore "TodoApi.csproj"
+RUN dotnet restore "TodoApi/TodoApi.csproj"
 COPY . .
 WORKDIR "/src/TodoApi"
 RUN dotnet build "TodoApi.csproj" -c Release -o /app/build
@@ -19,5 +19,3 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "TodoApi.dll"]
-
-
