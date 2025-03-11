@@ -8,7 +8,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0-windowsservercore-ltsc2022 AS build
 WORKDIR /src
 COPY ["TodoApi/TodoApi.csproj", "TodoApi/"]
 RUN dotnet restore "TodoApi/TodoApi.csproj"
-COPY ["TodoApi/.", "TodoApi/"]
+COPY . .
 WORKDIR "/src/TodoApi"
 RUN dotnet build "TodoApi.csproj" -c Release -o /app/build
 
