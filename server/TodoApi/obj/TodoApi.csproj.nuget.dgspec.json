@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\me\\OneDrive\\מסמכים\\‏‏מסמכים\\תכנות\\פרקטיקוד\\פרקטיקוד מס' 3\\server\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\me\\OneDrive\\מסמכים\\‏‏מסמכים\\תכנות\\פרקטיקוד\\פרקטיקוד מס' 4\\todos\\server\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\me\\OneDrive\\מסמכים\\‏‏מסמכים\\תכנות\\פרקטיקוד\\פרקטיקוד מס' 3\\server\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\me\\OneDrive\\מסמכים\\‏‏מסמכים\\תכנות\\פרקטיקוד\\פרקטיקוד מס' 4\\todos\\server\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\me\\OneDrive\\מסמכים\\‏‏מסמכים\\תכנות\\פרקטיקוד\\פרקטיקוד מס' 3\\server\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\me\\OneDrive\\מסמכים\\‏‏מסמכים\\תכנות\\פרקטיקוד\\פרקטיקוד מס' 4\\todos\\server\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\me\\OneDrive\\מסמכים\\‏‏מסמכים\\תכנות\\פרקטיקוד\\פרקטיקוד מס' 3\\server\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\me\\OneDrive\\מסמכים\\‏‏מסמכים\\תכנות\\פרקטיקוד\\פרקטיקוד מס' 4\\todos\\server\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\me\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\me\\OneDrive\\מסמכים\\‏‏מסמכים\\תכנות\\פרקטיקוד\\פרקטיקוד מס' 3\\server\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\me\\OneDrive\\מסמכים\\‏‏מסמכים\\תכנות\\פרקטיקוד\\פרקטיקוד מס' 4\\todos\\server\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
