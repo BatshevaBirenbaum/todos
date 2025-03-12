@@ -18,8 +18,6 @@ public partial class ToDoDbContext : DbContext
 
     public virtual DbSet<Item> Items { get; set; }
 
-
-
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseMySql("server=bci7rtehoiht9r0eqd02-mysql.services.clever-cloud.com;port=3306;user=ulfglu9yyjh4snpa;password=7UFdnAukbm4duRzJVwnA;database=bci7rtehoiht9r0eqd02", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.41-mysql"));
@@ -37,7 +35,7 @@ public partial class ToDoDbContext : DbContext
             entity.ToTable("items");
 
             entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.IsComplete).HasColumnName("isComplete");
+            entity.Property(e => e.IsComplete).HasColumnName("iscomplete");
             entity.Property(e => e.Name)
                 .HasMaxLength(100)
                 .HasColumnName("name");
