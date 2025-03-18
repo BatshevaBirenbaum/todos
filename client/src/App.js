@@ -31,9 +31,9 @@ function App() {
   }, []);
 
   return (
-    <section className="todoapp">
+    <section className="todoapp" >
       <header className="header">
-        <h1>todos</h1>
+        <h1>משימות: 👌😏</h1>
         <form onSubmit={createTodo}>
           <input className="new-todo" placeholder="Well, let's take on the day" value={newTodo} onChange={(e) => setNewTodo(e.target.value)} />
         </form>
