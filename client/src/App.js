@@ -32,7 +32,9 @@ function App() {
 
   return (
     <section className="todoapp" >
+    
       <header className="header">
+       <p>&copy; כל הזכויות שמורות לבת שבע בירנבאום</p>
         <h1>  👌:משימות</h1>
         <form onSubmit={createTodo}>
           <input className="new-todo" placeholder="Well, let's take on the day" value={newTodo} onChange={(e) => setNewTodo(e.target.value)} />
