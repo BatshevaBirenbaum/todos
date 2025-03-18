@@ -11,13 +11,13 @@ axios.interceptors.response.use(
 export default {
     
   getTasks: async () => {
-    const result = await axios.get(`${apiUrl}/getItems`)  
+    const result = await axios.get(`/getItems`)  
     return result.data;
   },
 
   addTask: async(name) => {
     console.log('addTask', name);
-    await axios.post(`${apiUrl}/addItem`, name, {
+    await axios.post(`addItem`, name, {
         headers: {
             'Content-Type': 'application/json' 
         }
@@ -25,10 +25,10 @@ export default {
 },
   setCompleted: async(id, isComplete)=>{
    
-    await axios.put(`${apiUrl}/updateItem?id=${id}&&IsComplete=${isComplete}`);
+    await axios.put(`/updateItem?id=${id}&&IsComplete=${isComplete}`);
   },
 
   deleteTask:async(id)=>{
-    await axios.delete(`${apiUrl}/deleteItem?id=${id}`);
+    await axios.delete(`/deleteItem?id=${id}`);
   }
 };
